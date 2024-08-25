@@ -716,3 +716,22 @@ header nav {
     font-size: 14px;
     color: #aaa;
 }
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+
+    .main-menu {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .main-menu li {
+        padding: 10px;
+    }
+
+    #countdown-timer {
+        font-size: 24px; /* Reduce el tamaño del texto en pantallas pequeñas */
+    }
+}
